@@ -32,5 +32,17 @@ body {
     url("../img/hero.jpg");
   background-size: cover; /*Image fits inside the container*/
   background-position: top; /*Image always stays at the top no matter the size - others bottom, center*/
+  position: relative;
+
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.logo {
+  height: 35px;
 }
