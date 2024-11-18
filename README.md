@@ -10,3 +10,16 @@ What to learn;
 6. What pseudo-elements and pseudo-classes are
 7. How and why to use the ::after pseudo-element
 8. How to create a creative hover animation effect using the transition property
+
+7-1 CSS Architecture
+
+_base folder_: For the low level basics such as resets and styles for the HTML and body element selectors
+
+1. base.scss file:
+2. animations.scss file
+3. typography.scss file
+4. utilities.scss file
+
+_abstracts folder_:
+
+1. variables.scss
